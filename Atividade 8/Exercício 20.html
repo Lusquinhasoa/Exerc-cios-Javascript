@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 20</title>
+</head>
+<body>
+    <script>
+        var lados = parseInt(prompt("Digite o número de lados do seu polígono regular: "))
+        if(lados<3){
+alert("NÃO É UM POLÍGONO")
+        }
+        else{
+            if(lados>5){
+                alert("POLÍGONO NÃO IDENTIFICADO")
+            }
+            if(lados==3){
+                alert("Ele é um TRIÂNGULO")
+                var p1 = parseInt(prompt("Digite o valor dos 3 lados: "))
+                var p2= parseInt(prompt("Digite o valor dos 3 lados: "))
+                var p3 = parseInt(prompt("Digite o valor dos 3 lados: "))
+                var p4 = (p1) + (p2) + (p3);
+                alert("O perímetro é igual a : " + p4 +"m")
+            }
+            if(lados==4){
+                alert("Ele é um QUADRADO")
+                var a = parseInt(prompt("Digite o valor de um dos lados: "))
+                alert("A área é igual a : " + a * a + "cm²")
+            }
+            if(lados==5){
+                alert("Ele é um PENTÁGONO")
+            }
+        }
+        </script>
+</body>
+</html>
