@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 22</title>
+</head>
+<body>
+    <script>
+        alert("Loja Remi du Fromage: cada capacete artesanal para tartaruga custa R$18.230 e pode ser pago em até 15 vezes sem juros.")
+        
+        var parcelas = parseInt(prompt("Informe o número de parcelas desejadas: "))
+
+        if(parcelas>15){
+            alert("Desculpe, mas não é possível parcelar.")
+        }
+        if(parcelas<=15){
+valor = (18.320 / parcelas)
+alert("O valor de cada parcela ficará: " + valor)
+        }
+        
+    </script>
+</body>
+</html>

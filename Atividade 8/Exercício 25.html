@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 25</title>
+</head>
+<body>
+    <script>
+        var num = parseInt(prompt("Digite o 1° valor: "))
+        var num2 = parseInt(prompt("Digite o 2° valor: "))
+        alert ("Digite uma das opções para o cálculo:  1.Adição, 2.Subtração,3.Divisão, 4.Multiplicação")
+        var opção = parseInt(prompt("Digite umas das opções de 1 - 4 :"))
+
+        if(opção<0 || opção>4){
+            alert ("Opção não foi aceita")
+        }
+                else if(opção == 1){
+                soma = (num + num2)
+                alert ("A soma é igual a: " + soma)
+                }
+            else if(opção == 2){
+                sub = (num - num2)
+                alert ("A subtração é igual a: " + sub)
+            }
+            else if(opção == 3){
+                div = (num / num2)
+                alert ("A divisão é igual a: " + div)
+            }
+            else if(opção == 4){
+                mult = (num * num2)
+                alert ("A multiplicação é igual a: " + mult)
+            }
+        </script>
+</body>
+</html> 
