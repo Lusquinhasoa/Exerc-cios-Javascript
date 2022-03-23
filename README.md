@@ -4,3 +4,5 @@ primeira série de exercícios básicos para iniciação à lógica de programa�
 
 
 OBS: segunda lista de exercícios de Lógica segue na pasta 'Atividade 8' no mesmo diretório.
+
+att: Atividades 9 de Array e exercícios da atividade 10 de complementação à lógica de programação javascript estão incluídos.
